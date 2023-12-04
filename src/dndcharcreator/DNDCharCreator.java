@@ -7,6 +7,5 @@ public class DNDCharCreator {
         CharacterOptions characterOptions = new CharacterOptions();
          characterOptions.createCharacter();
         
-    }
-    
+    } 
 }
