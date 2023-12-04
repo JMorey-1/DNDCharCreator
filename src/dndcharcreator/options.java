@@ -25,9 +25,20 @@ public class options {
          Random random = new Random();
          int index = random.nextInt(backgrounds.length);
          return backgrounds[index];
-        }
+    }
 
 
+        public void createCharacter() {
+         String characterRace = getRandomRace();
+         String characterClass = getRandomClass();
+         String characterBackground = getRandomBackground();
+         
+
+         System.out.println("Your character's race is: " + characterRace);
+         System.out.println("Your character's class is: " + characterClass);
+         System.out.println("Your character's background is: " + characterBackground);
+         
+    }
 }
 
 
